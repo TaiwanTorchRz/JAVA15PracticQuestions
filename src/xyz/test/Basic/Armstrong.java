@@ -1,7 +1,7 @@
 package xyz.test.Basic;
 
 public class Armstrong {
-    public static void cal(int from ,int to){
+    public static void getAnswer(int from ,int to){
         for (int index = from; index < to; index++) {
             {
                 if (Math.pow(Integer.parseInt(String.valueOf(String.valueOf(index).charAt(0))),3) + Math.pow(Integer.parseInt(String.valueOf(String.valueOf(index).charAt(1))),3) + Math.pow(Integer.parseInt(String.valueOf(String.valueOf(index).charAt(2))),3) == index)
